@@ -36,7 +36,6 @@ export default {
       .then((res) => res.json())
       .then((resJson) => {
         this.data = resJson.results;
-        console.log(this.data);
         this.shuffleAnswers();
       });
   },
